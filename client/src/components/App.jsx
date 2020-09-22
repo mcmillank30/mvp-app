@@ -1,4 +1,7 @@
 import React from "react";
+import Forms from "./Forms";
+import Titles from "./Titles";
+import Weather from "./Weather";
 
 
 class App extends React.Component {
@@ -7,7 +10,7 @@ class App extends React.Component {
 
     return (
 
-      <div>Hello World!!!!!!!!</div>
+      <div>Hello </div>
     )
   }
 }
