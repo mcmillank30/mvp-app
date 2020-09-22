@@ -1,18 +1,30 @@
 import React from "react";
-// import Forms from "./Forms";
-// import Titles from "./Titles";
-// import Weather from "./Weather";
+import Forms from "./Forms.jsx";
+import Titles from "./Titles.jsx";
+import Weather from "./Weather.jsx";
 
 
-class App extends React.Component {
 
-  render() {
 
+
+
+const App = () => {
+
+  // getTheWeather = async() => {
+  //   // const call = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=London&appid=${API_KEY}`)
+  //   // const data = await call.json()
+  }
+
+ 
     return (
 
-      <div></div>
+      <div>
+        <Titles />
+        <Forms />
+        <Weather />
+      </div>
     )
-  }
+  
 }
 
 export default App;
