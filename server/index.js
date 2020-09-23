@@ -11,10 +11,10 @@ const app = express();
 //app.use('/', express.static('./client/dist'))
 app.use('/', express.static(path.resolve(__dirname, '../client', 'dist')))//line 12 and 4, do the same thing as line 11. Connects my front end to my backend.(refer to node.js docs)
 
-app.get('/', (req, res) => {})
-app.post('/', (req, res) => {})
-app.put('/', (req, res) => {})
-app.delete('/', (req, res) => {})
+app.get('/api/wea', (req, res) => {})
+app.post('/api', (req, res) => {})
+app.put('/api', (req, res) => {})
+app.delete('/api', (req, res) => {})
 
 
 
