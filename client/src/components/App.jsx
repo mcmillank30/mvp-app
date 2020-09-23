@@ -5,11 +5,6 @@ import Weather from "./Weather.jsx";
 
 const { API_KEY } = process.env;
 
-
-
-
-
-
 class App extends React.Component {
   constructor(props) {
     super(props);
